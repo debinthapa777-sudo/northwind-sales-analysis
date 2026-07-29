@@ -40,3 +40,13 @@ from Orders o
 join [Order Details] od on o.OrderID = od.OrderID
 GROUP BY MR
 ORDER BY MR ASC;
+
+SELECT categoryname,ProductName,
+rank() over ( PARTITION by categoryname order by r.revenue  DESC) as ranking
+FROM Products p
+join Categories C on p.CategoryID = C.CategoryID
+join (
+  select productid,sum(unitprice*quantity) as revenue
+  from [Order Details]
+  group by productid)as r 
+  on p.ProductID=r.ProductID
