@@ -41,6 +41,7 @@ join [Order Details] od on o.OrderID = od.OrderID
 GROUP BY MR
 ORDER BY MR ASC;
 
+-- Query 6: 
 SELECT categoryname,ProductName,
 rank() over ( PARTITION by categoryname order by r.revenue  DESC) as ranking
 FROM Products p
@@ -50,3 +51,14 @@ join (
   from [Order Details]
   group by productid)as r 
   on p.ProductID=r.ProductID
+
+--Query 7 : Running total each month
+SELECT month, revenue,
+SUM(revenue) OVER (ORDER BY month) AS running_total
+FROM (
+SELECT strftime('%Y-%m', OrderDate) AS month,
+SUM(od.UnitPrice * od.Quantity) AS revenue
+FROM Orders o
+JOIN [Order Details] od ON o.OrderID = od.OrderID
+GROUP BY month
+) monthly;
