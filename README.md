@@ -5,6 +5,8 @@ This project analyzes sales data from the fictional Northwind
 company using SQL. It includes 7 queries that uncover business 
 insights about revenue, products, employees, and customers.
 
+![Uploading dashboard.png…]()
+
 ## Business Questions Answered
 1. Which products generate the most revenue?
 2. Which countries have the highest sales?
