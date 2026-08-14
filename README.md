@@ -1,4 +1,4 @@
-# Northwind Sales Analysis
+# 1ST Northwind Sales Analysis
 
 ## Project Overview
 This project analyzes sales data from the fictional Northwind 
@@ -21,7 +21,15 @@ insights about revenue, products, employees, and customers.
 - SQL (SQLite)
 - VS Code
 - GitHub
+- 
+## 2ND ANALYSIS
+## Analysis Highlights
 
+- Identified monthly revenue decline trends using LAG() 
+  window function and RANK() in SQL
+- June 2017 had the highest revenue decline
+- Built Excel dashboard to visualize findings
+- Dataset: Northwind (fictional company data)
 ## Author
 Debin Thapa
 Computer Science Student — Youngstown State University
