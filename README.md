@@ -6,6 +6,8 @@ company using SQL. It includes 7 queries that uncover business
 insights about revenue, products, employees, and customers.
 
 ## Dashboard Preview
+## Live Dashboard
+[View the interactive dashboard on Tableau Public]https://public.tableau.com/app/profile/debin.thapa6598/viz/Tableaudashboard_17947124376640/Dashboard1?publish=yes
 ![Dashboard](dashboard.png)
 
 ## Business Questions Answered
