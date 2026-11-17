@@ -23,7 +23,7 @@ insights about revenue, products, employees, and customers.
 - SQL (SQLite)
 - VS Code
 - GitHub
-- 
+- Tableau
 ## 2ND ANALYSIS
 ## Analysis Highlights
 
