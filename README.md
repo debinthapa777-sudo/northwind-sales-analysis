@@ -11,13 +11,11 @@ insights about revenue, products, employees, and customers.
 ![Dashboard](dashboard.png)
 
 ## Business Questions Answered
-1. Which products generate the most revenue?
-2. Which countries have the highest sales?
-3. Who are the top performing employees?
-4. Which product categories sell the most?
-5. What is the monthly revenue trend?
-6. How do products rank within each category?
-7. What is the running total of revenue over time?
+- How does average revenue per customer change from month to month?
+- How many orders does each customer place, and who are the most frequent buyers?
+- Which products does each customer order?
+- How do new customer orders compare with returning customer orders over time?
+- What average discount does each customer receive?
 
 ## Tools Used
 - SQL (SQLite)
