@@ -16,6 +16,8 @@ insights about revenue, products, employees, and customers.
 - Which products does each customer order?
 - How do new customer orders compare with returning customer orders over time?
 - What average discount does each customer receive?
+- How did revenue change month to month?
+- Which months had the highest and lowest profit?
 
 ## Tools Used
 - SQL (SQLite)
